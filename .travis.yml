@@ -2,7 +2,7 @@ env:
   global:
     - CC_TEST_REPORTER_ID=$CC_TEST_REPORTER_ID
 
-# language: node_js
+language: java
 
 os:
   - linux
