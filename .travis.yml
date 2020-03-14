@@ -9,19 +9,23 @@ os:
 
 dist: bionic
 
-# install:
+install:
+  exit 0
 #  - npm install
 #  - npm install -g codecov
 
 before_script:
+  exit 0
 #  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-darwin-amd64 > ./cc-test-reporter; fi
 #  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter; fi
 #  - if [[ "$TRAVIS_OS_NAME" != "windows" ]]; then chmod +x ./cc-test-reporter; fi
 #  - if [[ "$TRAVIS_OS_NAME" != "windows" ]]; then ./cc-test-reporter before-build; fi
 
 script:
+  exit 0
 #  - npm run build
 #  - codecov
 
 after_script:
 #  - if [[ "$TRAVIS_OS_NAME" != "linux" ]]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+  - exit 0
